@@ -17,6 +17,11 @@ Route::get('prueba', function() {
 Route::get('nombre/{nombre}', function($name) {
   return "Mi nombre es " . $name;
 });
+
+Route::get('edad/{edad}', function($year) {
+  return "Mi edad es " . $year;
+});
+
 Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
