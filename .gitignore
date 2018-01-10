@@ -1,0 +1,12 @@
+# Ignores
+\.DS_Store
+\.classpath
+\.project
+\.settings
+\.metadata/
+/vendor
+/node_modules
+Servers/
+target/
+.env
+
